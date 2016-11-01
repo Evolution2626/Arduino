@@ -1,5 +1,0 @@
-Documentations sur les arduino dans les robots de FIRST et examples de projets par d'autres équipes:
-
-Projets d'autres équipes:
-Library of various Arduino Classes for interfacing with FRC Hardware (Spike Relays, Motor Controllers, ect.): https://github.com/gustavemichel/FRC_Arduino
-Controller des LEDs: https://github.com/mechadogs/2016_FRC/tree/master/Arduino/LEDProgram2016
