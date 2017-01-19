@@ -67,6 +67,14 @@ void loop() {
     Serial.write(thirdSensor);
        }
 
+    if (inByte == 'P')
+       {
+    // read  switch, map it to 0 or 255L
+    thirdSensor = map(digitalRead(A0), 0, 1023, 0, 255);
+    // send sensor values:
+    Serial.write(thirdSensor);
+       }
+
     if (inByte == 'L')
      digitalWrite(mainLed,LOW);
 
